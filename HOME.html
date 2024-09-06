@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLLabActivity02</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #ADD8E6;
+        }
+        h1 {
+            margin: 0 0 20px 0;
+        }
+        .image-container {
+            display: inline-block;
+            margin-right: 20px; 
+        }
+        .image-container img {
+            width: 150px; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-container:hover img {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        .link-container {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .link-container a {
+            text-decoration: none;
+            color: #0000FF; 
+        }
+        .link-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Sports</h1>
+    <div class="image-container">
+        <a href="Files/volleyball.html">
+            <img src="Images/vb.jpg" alt="Volleyball">
+        </a>
+    </div>
+    <div class="image-container">
+        <a href="Files/Badminton.html">
+            <img src="Images/shuttlecock.jpg" alt="Badminton">
+        </a>
+    </div>
+    <div class="image-container">
+        <a href="Files/figure skating.html">
+            <img src="Images/figureskates.jpg" alt="Figure Skating">
+        </a>
+    </div>
+    <div class="link-container">
+        <a href="Files/timetable!.html">My Time Table</a>
+    </div>
+</body>
+</html>
